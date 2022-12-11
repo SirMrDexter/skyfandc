@@ -75,7 +75,7 @@ fan:
 # Based on https://esphome.io/components/light/tuya.html
 light:
   - platform: tuya
-    name: ${fan_name}
+    name: ${light_name}
     switch_datapoint: 15
     dimmer_datapoint: 16
     min_value: 0
